@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#nav_bar{
+height: 100px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: whitesmoke;
+margin-bottom: 5%;
+
+
+}
+
+#menu_items {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 100;
+}
+ 
+#menu_items img{
+height: 30px;
+width: 30px;
+
+
+}
+
+#menu_items #menu {
+    height: 25px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#auth_itmes{
+  
+    display: flex;
+    padding-right: 20px;
+    gap: 5px;
+}
+
+#auth_itmes button{
+
+    border: 1px solid black;
+    width: 70px;
+    border-radius: 10px;
+    background-color: white;
+  
+   
+}
+
+#auth_itmes #signup {
+    background-color: rgb(245, 146, 109);
+    color: white;
+    border : none;
+    
+
+}
+
+#content{
+    display: flex;
+    height: 10px;
+    width :10px;
+
+}
+
+#content>h1{
+
+    position :absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    font-size: 150px;
+    width: 100%;
+    text-align: center;
+    
+  
+}
+
+#content img{
+    position :absolute;
+    top: 60%;
+    left: 50%;
+    height: 330px;
+    width: 270px;
+    object-fit: cover;
+    border-radius: 30px;
+
+}
+#img1{
+
+    transform: translate(-50%, -50%) rotate(-40deg);
+}
+
+#img2{
+
+    transform: translate(-50% ,-50%) rotate(-30deg);
+}
+
+#img3{
+
+    transform: translate(-50% ,-50%) rotate(-20deg);
+}
+
+#img4{
+
+    transform: translate(-50% ,-50%) ;
+}
+
